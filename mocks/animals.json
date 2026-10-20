@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "animalTypeId": "dog",
+    "shelterId": "whisker-hollow",
+    "name": "Biscuit",
+    "age": "2 years",
+    "description": "A cheerful beagle mix who loves long walks and sniffing everything.",
+    "photoUrl": "https://placehold.co/400x300/fde68a/78350f?text=Biscuit"
+  },
+  {
+    "id": 2,
+    "animalTypeId": "dog",
+    "shelterId": "second-chance-paws",
+    "name": "Luna",
+    "age": "5 years",
+    "description": "A calm, gentle lady who would be happy in a quiet home.",
+    "photoUrl": "https://placehold.co/400x300/fde68a/78350f?text=Luna"
+  },
+  {
+    "id": 3,
+    "animalTypeId": "dog",
+    "shelterId": "whisker-hollow",
+    "name": "Rocky",
+    "age": "1 year",
+    "description": "An energetic young dog who is learning to sit and stay.",
+    "photoUrl": "https://placehold.co/400x300/fde68a/78350f?text=Rocky"
+  },
+  {
+    "id": 4,
+    "animalTypeId": "dog",
+    "shelterId": "cozy-burrow",
+    "name": "Pepper",
+    "age": "8 years",
+    "description": "A senior sweetheart who enjoys naps in the sun and gentle pets.",
+    "photoUrl": "https://placehold.co/400x300/fde68a/78350f?text=Pepper"
+  },
+  {
+    "id": 5,
+    "animalTypeId": "dog",
+    "shelterId": "little-hearts",
+    "name": "Max",
+    "age": "3 years",
+    "description": "A friendly shepherd mix who gets along well with other dogs.",
+    "photoUrl": "https://placehold.co/400x300/fde68a/78350f?text=Max"
+  },
+  {
+    "id": 6,
+    "animalTypeId": "cat",
+    "shelterId": "second-chance-paws",
+    "name": "Mochi",
+    "age": "1 year",
+    "description": "A playful tabby who chases every toy mouse in sight.",
+    "photoUrl": "https://placehold.co/400x300/fbcfe8/831843?text=Mochi"
+  },
+  {
+    "id": 7,
+    "animalTypeId": "cat",
+    "shelterId": "second-chance-paws",
+    "name": "Oliver",
+    "age": "6 years",
+    "description": "A relaxed gentleman who loves warm laps and quiet evenings.",
+    "photoUrl": "https://placehold.co/400x300/fbcfe8/831843?text=Oliver"
+  },
+  {
+    "id": 8,
+    "animalTypeId": "cat",
+    "shelterId": "cozy-burrow",
+    "name": "Cleo",
+    "age": "3 years",
+    "description": "A curious black cat who always wants to know what you are doing.",
+    "photoUrl": "https://placehold.co/400x300/fbcfe8/831843?text=Cleo"
+  },
+  {
+    "id": 9,
+    "animalTypeId": "cat",
+    "shelterId": "sunny-meadow",
+    "name": "Ginger",
+    "age": "4 months",
+    "description": "A tiny orange kitten with a big purr.",
+    "photoUrl": "https://placehold.co/400x300/fbcfe8/831843?text=Ginger"
+  },
+  {
+    "id": 10,
+    "animalTypeId": "rabbit",
+    "shelterId": "cozy-burrow",
+    "name": "Clover",
+    "age": "2 years",
+    "description": "A litter-trained bunny who does happy jumps every evening.",
+    "photoUrl": "https://placehold.co/400x300/d9f99d/365314?text=Clover"
+  },
+  {
+    "id": 11,
+    "animalTypeId": "rabbit",
+    "shelterId": "sunny-meadow",
+    "name": "Hazel",
+    "age": "1 year",
+    "description": "A shy lop-eared rabbit who warms up with patience and fresh greens.",
+    "photoUrl": "https://placehold.co/400x300/d9f99d/365314?text=Hazel"
+  },
+  {
+    "id": 12,
+    "animalTypeId": "rabbit",
+    "shelterId": "sunny-meadow",
+    "name": "Thumper",
+    "age": "4 years",
+    "description": "A confident rabbit who loves exploring and nibbling hay.",
+    "photoUrl": "https://placehold.co/400x300/d9f99d/365314?text=Thumper"
+  },
+  {
+    "id": 13,
+    "animalTypeId": "rabbit",
+    "shelterId": "whisker-hollow",
+    "name": "Snowball",
+    "age": "3 years",
+    "description": "A fluffy white rabbit looking for a calm home with lots of space.",
+    "photoUrl": "https://placehold.co/400x300/d9f99d/365314?text=Snowball"
+  },
+  {
+    "id": 14,
+    "animalTypeId": "guinea-pig",
+    "shelterId": "little-hearts",
+    "name": "Peanut",
+    "age": "1 year",
+    "description": "A chatty guinea pig who wheeks loudly when the fridge opens.",
+    "photoUrl": "https://placehold.co/400x300/bae6fd/0c4a6e?text=Peanut"
+  },
+  {
+    "id": 15,
+    "animalTypeId": "guinea-pig",
+    "shelterId": "little-hearts",
+    "name": "Butterscotch",
+    "age": "2 years",
+    "description": "Peanut's best friend. They would love to be adopted together.",
+    "photoUrl": "https://placehold.co/400x300/bae6fd/0c4a6e?text=Butterscotch"
+  },
+  {
+    "id": 16,
+    "animalTypeId": "guinea-pig",
+    "shelterId": "second-chance-paws",
+    "name": "Pumpkin",
+    "age": "3 years",
+    "description": "A gentle guinea pig who loves fresh bell pepper and quiet company.",
+    "photoUrl": "https://placehold.co/400x300/bae6fd/0c4a6e?text=Pumpkin"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "id": 1,
+    "animalTypeId": "dog",
+    "text": "Dogs cool down mainly by panting.",
+    "isTrue": true,
+    "explanation": "Dogs sweat a little through their paw pads, but that is not enough to cool the body. Panting is their main way to release heat."
+  },
+  {
+    "id": 2,
+    "animalTypeId": "dog",
+    "text": "A wagging tail always means a dog is happy.",
+    "isTrue": false,
+    "explanation": "Tail wagging shows that a dog is emotionally aroused. A stiff, high wag can mean the dog is tense or unsure, so look at the whole body."
+  },
+  {
+    "id": 3,
+    "animalTypeId": "dog",
+    "text": "Dogs see the world only in black and white.",
+    "isTrue": false,
+    "explanation": "Dogs see colors, just fewer than we do. They see mostly blues and yellows and have trouble telling red from green."
+  },
+  {
+    "id": 4,
+    "animalTypeId": "dog",
+    "text": "Chocolate is toxic to dogs.",
+    "isTrue": true,
+    "explanation": "Chocolate contains theobromine, which dogs break down very slowly. Dark chocolate and cocoa powder are the most dangerous."
+  },
+  {
+    "id": 5,
+    "animalTypeId": "dog",
+    "text": "One dog year always equals seven human years.",
+    "isTrue": false,
+    "explanation": "Dogs grow up very fast in their first two years, and then aging depends on size. Large breeds usually age faster than small ones."
+  },
+  {
+    "id": 6,
+    "animalTypeId": "dog",
+    "text": "A warm, dry nose means a dog is sick.",
+    "isTrue": false,
+    "explanation": "A dog's nose can be warm or dry many times a day, for example after a nap. Appetite, energy and behavior tell you much more."
+  },
+  {
+    "id": 7,
+    "animalTypeId": "dog",
+    "text": "Grapes and raisins can be dangerous for dogs.",
+    "isTrue": true,
+    "explanation": "Grapes and raisins can cause kidney failure in dogs, and even a small amount can be harmful. Keep them out of reach."
+  },
+  {
+    "id": 8,
+    "animalTypeId": "dog",
+    "text": "Older dogs cannot learn new tricks.",
+    "isTrue": false,
+    "explanation": "Dogs can learn at any age. Senior dogs may need shorter sessions, but they enjoy training with treats and praise."
+  },
+  {
+    "id": 9,
+    "animalTypeId": "dog",
+    "text": "A dog's sense of smell is many times stronger than a human's.",
+    "isTrue": true,
+    "explanation": "Dogs have hundreds of millions of scent receptors, while humans have only a few million. That is why dogs can find people and detect tiny traces of smells."
+  },
+  {
+    "id": 10,
+    "animalTypeId": "dog",
+    "text": "Most dogs in shelters are there because of bad behavior.",
+    "isTrue": false,
+    "explanation": "Common reasons are owners moving, housing rules, money problems or other life changes. Many shelter dogs are already house-trained and friendly."
+  },
+  {
+    "id": 11,
+    "animalTypeId": "dog",
+    "text": "Puppies are born with their eyes closed.",
+    "isTrue": true,
+    "explanation": "Puppies are born blind and deaf. Their eyes usually open when they are about 10 to 14 days old."
+  },
+  {
+    "id": 12,
+    "animalTypeId": "dog",
+    "text": "Dogs need a bath every day to stay clean.",
+    "isTrue": false,
+    "explanation": "Bathing too often removes the natural oils that protect a dog's skin and coat. Most dogs need a bath only every few weeks or when they get dirty."
+  },
+  {
+    "id": 13,
+    "animalTypeId": "dog",
+    "text": "Xylitol, a sweetener in some sugar-free gum, is dangerous for dogs.",
+    "isTrue": true,
+    "explanation": "Xylitol can cause a sudden drop in a dog's blood sugar and even liver damage. Always check labels on sugar-free products."
+  },
+  {
+    "id": 14,
+    "animalTypeId": "dog",
+    "text": "Dogs eat grass only when they feel sick.",
+    "isTrue": false,
+    "explanation": "Many healthy dogs eat grass, and most of them do not vomit afterwards. It is a common and usually harmless behavior."
+  },
+  {
+    "id": 15,
+    "animalTypeId": "dog",
+    "text": "An adult dog has 42 teeth.",
+    "isTrue": true,
+    "explanation": "Adult dogs have 42 permanent teeth. Puppies have 28 baby teeth, which fall out at around 3 to 6 months of age."
+  },
+  {
+    "id": 16,
+    "animalTypeId": "dog",
+    "text": "Dogs can understand when a person points at something.",
+    "isTrue": true,
+    "explanation": "Many dogs, even young puppies, can follow a pointing hand to find hidden food. It shows how closely dogs have learned to work with people."
+  },
+  {
+    "id": 101,
+    "animalTypeId": "cat",
+    "text": "Cats always land on their feet.",
+    "isTrue": false,
+    "explanation": "Cats have a righting reflex that helps them turn in the air, but they can still be badly hurt in falls. Secure windows and balconies."
+  },
+  {
+    "id": 102,
+    "animalTypeId": "cat",
+    "text": "Milk is a healthy treat for adult cats.",
+    "isTrue": false,
+    "explanation": "Many adult cats are lactose intolerant, so milk can upset their stomach. Fresh water is the best drink for a cat."
+  },
+  {
+    "id": 103,
+    "animalTypeId": "cat",
+    "text": "Cats purr only when they are happy.",
+    "isTrue": false,
+    "explanation": "Cats also purr when they are stressed, unwell or in pain. Purring can be a way to calm themselves down."
+  },
+  {
+    "id": 104,
+    "animalTypeId": "cat",
+    "text": "Cats often sleep 12 to 16 hours a day.",
+    "isTrue": true,
+    "explanation": "Cats are natural hunters that save energy by sleeping a lot. Kittens and senior cats may sleep even more."
+  },
+  {
+    "id": 105,
+    "animalTypeId": "cat",
+    "text": "Lilies are highly toxic to cats.",
+    "isTrue": true,
+    "explanation": "Even a small amount of a lily, including its pollen or the water from the vase, can cause kidney failure in cats."
+  },
+  {
+    "id": 106,
+    "animalTypeId": "cat",
+    "text": "Cats cannot be trained.",
+    "isTrue": false,
+    "explanation": "Cats can learn their name, tricks and using a scratching post. Rewards like treats and play work best."
+  },
+  {
+    "id": 107,
+    "animalTypeId": "cat",
+    "text": "Cats cannot taste sweet flavors.",
+    "isTrue": true,
+    "explanation": "Cats lack a working sweet taste receptor. As meat eaters, they do not need to detect sugar."
+  },
+  {
+    "id": 108,
+    "animalTypeId": "cat",
+    "text": "Indoor cats do not need any vaccinations.",
+    "isTrue": false,
+    "explanation": "Some viruses can be brought inside on shoes or clothes, and indoor cats sometimes escape. Vets still recommend core vaccines."
+  },
+  {
+    "id": 109,
+    "animalTypeId": "cat",
+    "text": "Cats have a third eyelid.",
+    "isTrue": true,
+    "explanation": "The third eyelid, called the nictitating membrane, protects and moistens the eye. You usually only see it when a cat is sleepy or unwell."
+  },
+  {
+    "id": 110,
+    "animalTypeId": "cat",
+    "text": "Cats never need company or attention.",
+    "isTrue": false,
+    "explanation": "Many cats bond strongly with their people and get bored or stressed without play and interaction."
+  },
+  {
+    "id": 111,
+    "animalTypeId": "cat",
+    "text": "Kittens are usually ready for a new home at around 8 to 12 weeks old.",
+    "isTrue": true,
+    "explanation": "In the first weeks, kittens learn important social skills from their mother and littermates. Leaving too early can cause behavior problems."
+  },
+  {
+    "id": 112,
+    "animalTypeId": "cat",
+    "text": "Cats can stay healthy on a vegan diet.",
+    "isTrue": false,
+    "explanation": "Cats are obligate carnivores. They need nutrients from animal tissue, such as taurine, to keep their heart and eyes healthy."
+  },
+  {
+    "id": 113,
+    "animalTypeId": "cat",
+    "text": "Declawing a cat is just like trimming its nails.",
+    "isTrue": false,
+    "explanation": "Declawing removes the last bone of each toe. It is painful, and many countries ban or strongly discourage it."
+  },
+  {
+    "id": 114,
+    "animalTypeId": "cat",
+    "text": "All cats hate water.",
+    "isTrue": false,
+    "explanation": "Many cats dislike getting wet, but some, for example many Turkish Vans, enjoy playing with water."
+  },
+  {
+    "id": 115,
+    "animalTypeId": "cat",
+    "text": "An adult cat has 30 teeth.",
+    "isTrue": true,
+    "explanation": "Adult cats have 30 permanent teeth. Kittens have 26 baby teeth."
+  },
+  {
+    "id": 116,
+    "animalTypeId": "cat",
+    "text": "Whiskers help cats sense the world around them.",
+    "isTrue": true,
+    "explanation": "Whiskers are very sensitive to touch and air movement. They help cats move in the dark and sense nearby objects, so never cut them."
+  },
+  {
+    "id": 201,
+    "animalTypeId": "rabbit",
+    "text": "Carrots should be the main food in a rabbit's diet.",
+    "isTrue": false,
+    "explanation": "Carrots are high in sugar, so they are only an occasional treat. Most of a rabbit's diet should be hay, plus some leafy greens."
+  },
+  {
+    "id": 202,
+    "animalTypeId": "rabbit",
+    "text": "A rabbit's teeth never stop growing.",
+    "isTrue": true,
+    "explanation": "Rabbit teeth grow all their life. Chewing lots of hay keeps them at a healthy length."
+  },
+  {
+    "id": 203,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits are rodents.",
+    "isTrue": false,
+    "explanation": "Rabbits are lagomorphs, not rodents. One difference is that rabbits have a second, small pair of upper front teeth."
+  },
+  {
+    "id": 204,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits can be litter-trained.",
+    "isTrue": true,
+    "explanation": "Rabbits naturally choose one place for their toilet, so most of them learn to use a litter box quickly."
+  },
+  {
+    "id": 205,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits are easy, low-care pets for small children.",
+    "isTrue": false,
+    "explanation": "Rabbits are fragile, often dislike being picked up, need daily exercise and can live for many years. They are a big commitment."
+  },
+  {
+    "id": 206,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits eat some of their own droppings.",
+    "isTrue": true,
+    "explanation": "Rabbits eat special soft droppings called cecotropes. They are full of nutrients and are an important part of healthy digestion."
+  },
+  {
+    "id": 207,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits can vomit if they eat something bad.",
+    "isTrue": false,
+    "explanation": "Rabbits cannot vomit. That is why it is so important to keep harmful foods and plants away from them."
+  },
+  {
+    "id": 208,
+    "animalTypeId": "rabbit",
+    "text": "Happy rabbits sometimes jump and twist in the air.",
+    "isTrue": true,
+    "explanation": "This happy jump is called a binky. It is a sign that a rabbit feels safe and playful."
+  },
+  {
+    "id": 209,
+    "animalTypeId": "rabbit",
+    "text": "It is fine to pick up a rabbit by its ears.",
+    "isTrue": false,
+    "explanation": "Lifting a rabbit by its ears is painful and can injure it. Support the chest and the back legs when you hold a rabbit."
+  },
+  {
+    "id": 210,
+    "animalTypeId": "rabbit",
+    "text": "Pet rabbits can live 8 to 12 years.",
+    "isTrue": true,
+    "explanation": "With good food, care and vet visits, pet rabbits often live 8 to 12 years, so adopting one is a long-term decision."
+  },
+  {
+    "id": 211,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits are happy living alone in a small hutch.",
+    "isTrue": false,
+    "explanation": "Rabbits are social animals that need space to run every day. Many are happiest with another rabbit as a friend."
+  },
+  {
+    "id": 212,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits can see almost all the way around themselves.",
+    "isTrue": true,
+    "explanation": "Their eyes are on the sides of their head, which helps them spot danger. They have only a small blind spot right in front of the nose."
+  },
+  {
+    "id": 213,
+    "animalTypeId": "rabbit",
+    "text": "Iceberg lettuce is a great everyday food for rabbits.",
+    "isTrue": false,
+    "explanation": "Iceberg lettuce has very little nutrition and can upset a rabbit's stomach. Darker leafy greens are a better choice."
+  },
+  {
+    "id": 214,
+    "animalTypeId": "rabbit",
+    "text": "Rabbits are most active at dawn and dusk.",
+    "isTrue": true,
+    "explanation": "Rabbits are crepuscular. They are usually most lively early in the morning and in the evening."
+  },
+  {
+    "id": 215,
+    "animalTypeId": "rabbit",
+    "text": "A rabbit that stops eating needs a vet quickly.",
+    "isTrue": true,
+    "explanation": "If a rabbit stops eating, its gut can slow down or stop, and this can become life-threatening fast. Call a vet the same day."
+  },
+  {
+    "id": 301,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs come from Guinea in Africa.",
+    "isTrue": false,
+    "explanation": "Guinea pigs come from the Andes region of South America, where people domesticated them thousands of years ago."
+  },
+  {
+    "id": 302,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs need vitamin C from their food.",
+    "isTrue": true,
+    "explanation": "Just like humans, guinea pigs cannot make their own vitamin C. Without it in their diet, they can get scurvy."
+  },
+  {
+    "id": 303,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs are happiest living alone.",
+    "isTrue": false,
+    "explanation": "Guinea pigs are herd animals and get lonely on their own. It is best to keep at least two together."
+  },
+  {
+    "id": 304,
+    "animalTypeId": "guinea-pig",
+    "text": "A guinea pig's teeth never stop growing.",
+    "isTrue": true,
+    "explanation": "Their teeth grow all their life. Unlimited hay helps wear them down naturally."
+  },
+  {
+    "id": 305,
+    "animalTypeId": "guinea-pig",
+    "text": "When a guinea pig jumps straight up in the air, it is usually happy.",
+    "isTrue": true,
+    "explanation": "This jump is called popcorning. It is most common in young guinea pigs and shows excitement and joy."
+  },
+  {
+    "id": 306,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs and rabbits can share a cage without any problems.",
+    "isTrue": false,
+    "explanation": "They need different diets, a rabbit can hurt a guinea pig by accident, and rabbits can carry bacteria that make guinea pigs sick."
+  },
+  {
+    "id": 307,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs live only 1 to 2 years.",
+    "isTrue": false,
+    "explanation": "Guinea pigs usually live 5 to 7 years, and some live even longer with good care."
+  },
+  {
+    "id": 308,
+    "animalTypeId": "guinea-pig",
+    "text": "Baby guinea pigs are born with fur and open eyes.",
+    "isTrue": true,
+    "explanation": "Baby guinea pigs are very developed at birth. They can run around and start nibbling solid food within days."
+  },
+  {
+    "id": 309,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs need an exercise wheel, like hamsters.",
+    "isTrue": false,
+    "explanation": "Wheels can hurt a guinea pig's back and legs. They need plenty of floor space to walk and explore instead."
+  },
+  {
+    "id": 310,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs often make a loud 'wheek' sound when they expect food.",
+    "isTrue": true,
+    "explanation": "Wheeking is a whistle-like call. Many guinea pigs wheek when they hear the fridge or a bag of vegetables."
+  },
+  {
+    "id": 311,
+    "animalTypeId": "guinea-pig",
+    "text": "Hay should make up most of a guinea pig's diet.",
+    "isTrue": true,
+    "explanation": "Fresh hay keeps their digestion working and their teeth healthy. Add fresh vegetables and some pellets."
+  },
+  {
+    "id": 312,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs sleep all day and are active only at night.",
+    "isTrue": false,
+    "explanation": "Guinea pigs take many short naps and are active on and off during both the day and the night."
+  },
+  {
+    "id": 313,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs are a kind of pig.",
+    "isTrue": false,
+    "explanation": "Guinea pigs are rodents, not pigs. They are also called cavies."
+  },
+  {
+    "id": 314,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs are good climbers and enjoy high shelves.",
+    "isTrue": false,
+    "explanation": "Guinea pigs are poor climbers and can get hurt if they fall. Keep their home low, or use gentle ramps."
+  },
+  {
+    "id": 315,
+    "animalTypeId": "guinea-pig",
+    "text": "Guinea pigs need their nails trimmed regularly.",
+    "isTrue": true,
+    "explanation": "Their nails keep growing and can curl into the foot if they get too long. Most guinea pigs need a trim every few weeks."
+  }
+]

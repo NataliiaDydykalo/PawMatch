@@ -1,0 +1,37 @@
+[
+  {
+    "id": "whisker-hollow",
+    "name": "Whisker Hollow Rescue",
+    "city": "Kyiv",
+    "phone": "+380 00 000 0001",
+    "email": "hello@whisker-hollow.example"
+  },
+  {
+    "id": "second-chance-paws",
+    "name": "Second Chance Paws",
+    "city": "Lviv",
+    "phone": "+380 00 000 0002",
+    "email": "adopt@second-chance-paws.example"
+  },
+  {
+    "id": "cozy-burrow",
+    "name": "Cozy Burrow Shelter",
+    "city": "Odesa",
+    "phone": "+380 00 000 0003",
+    "email": "info@cozy-burrow.example"
+  },
+  {
+    "id": "little-hearts",
+    "name": "Little Hearts Animal Home",
+    "city": "Kharkiv",
+    "phone": "+380 00 000 0004",
+    "email": "team@little-hearts.example"
+  },
+  {
+    "id": "sunny-meadow",
+    "name": "Sunny Meadow Rescue",
+    "city": "Dnipro",
+    "phone": "+380 00 000 0005",
+    "email": "contact@sunny-meadow.example"
+  }
+]

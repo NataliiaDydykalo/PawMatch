@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dog",
+    "name": "Dog",
+    "pluralName": "dogs",
+    "emoji": "🐶",
+    "description": "Loyal, playful and always happy to see you."
+  },
+  {
+    "id": "cat",
+    "name": "Cat",
+    "pluralName": "cats",
+    "emoji": "🐱",
+    "description": "Independent, curious and great at cuddles."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "pluralName": "rabbits",
+    "emoji": "🐰",
+    "description": "Gentle, clever and full of happy jumps."
+  },
+  {
+    "id": "guinea-pig",
+    "name": "Guinea pig",
+    "pluralName": "guinea pigs",
+    "emoji": "🐹",
+    "description": "Chatty, social and best kept in pairs."
+  }
+]
