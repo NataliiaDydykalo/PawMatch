@@ -6,7 +6,9 @@ for a home in different shelters.
 
 > This is a learning project; shelters and animals are fictional.
 
-![PawMatch screenshot](docs/screenshot.png)
+| Choose an animal | Fact or Myth game |
+|---|---|
+| ![Choosing an animal](docs/screenshot-choose.png) | ![Fact or Myth game](docs/screenshot-game.png) |
 
 **Live demo:** https://nataliiadydykalo.github.io/PawMatch/
 
