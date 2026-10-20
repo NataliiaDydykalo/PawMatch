@@ -1,0 +1,15 @@
+<section>
+  <h2 class="section-title">Who would you like to adopt?</h2>
+
+  <div class="picker">
+    @for (animalType of animalTypes(); track animalType.id) {
+      <button type="button" class="picker__card" (click)="animalTypeSelected.emit(animalType)">
+        <span class="picker__emoji" aria-hidden="true">{{ animalType.emoji }}</span>
+        <span class="picker__name">{{ animalType.name }}</span>
+        <span class="picker__description">{{ animalType.description }}</span>
+      </button>
+    } @empty {
+      <p class="message">No animals to choose from right now. Please come back later!</p>
+    }
+  </div>
+</section>

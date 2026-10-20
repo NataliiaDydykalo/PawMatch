@@ -1,0 +1,41 @@
+.picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.picker__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 16px;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-4px);
+    border-color: var(--color-primary);
+  }
+}
+
+.picker__emoji {
+  font-size: 3rem;
+}
+
+.picker__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.picker__description {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
