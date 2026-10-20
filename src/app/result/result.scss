@@ -1,0 +1,24 @@
+.result {
+  text-align: center;
+}
+
+.result__intro {
+  margin-bottom: 24px;
+}
+
+.result__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  text-align: left;
+}
+
+.result__actions {
+  margin-top: 32px;
+}
+
+.result__disclaimer {
+  margin-top: 24px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}

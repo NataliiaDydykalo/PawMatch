@@ -1,0 +1,18 @@
+<section class="result">
+  <h2 class="section-title">🎉 You did it!</h2>
+  <p class="result__intro">You really know your {{ animalType().pluralName }}. Meet some friends waiting for a home:</p>
+
+  <div class="result__cards">
+    @for (card of cards(); track card.animal.id) {
+      <app-animal-card [animal]="card.animal" [shelter]="card.shelter" />
+    } @empty {
+      <p class="message">There are no {{ animalType().pluralName }} up for adoption right now. Please check back soon! 💛</p>
+    }
+  </div>
+
+  <div class="result__actions">
+    <button type="button" class="button" (click)="startOver.emit()">Start over</button>
+  </div>
+
+  <p class="result__disclaimer">This is a learning project; shelters and animals are fictional.</p>
+</section>

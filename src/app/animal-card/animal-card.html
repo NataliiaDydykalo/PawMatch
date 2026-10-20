@@ -1,0 +1,17 @@
+<article class="card">
+  <img class="card__photo" [src]="animal().photoUrl" [alt]="'Photo of ' + animal().name" width="400" height="300" loading="lazy" />
+
+  <div class="card__body">
+    <h3 class="card__name">{{ animal().name }}</h3>
+    <p class="card__age">{{ animal().age }}</p>
+    <p>{{ animal().description }}</p>
+
+    @if (shelter(); as shelter) {
+      <div class="card__shelter">
+        <p><strong>{{ shelter.name }}</strong>, {{ shelter.city }}</p>
+        <p>📞 {{ shelter.phone }}</p>
+        <p>✉️ <a [href]="'mailto:' + shelter.email">{{ shelter.email }}</a></p>
+      </div>
+    }
+  </div>
+</article>

@@ -1,14 +1,16 @@
 import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { AnimalPicker } from './animal-picker/animal-picker';
 import { Game } from './game/game';
-import { AnimalType, PawMatchData } from './models';
+import { Result } from './result/result';
+import { MAX_MATCHES, pickAnimalsFromDifferentShelters, shuffle } from './game-rules';
+import { Animal, AnimalType, PawMatchData } from './models';
 import { PetDataService } from './pet-data.service';
 
 type Step = 'choose' | 'game' | 'result';
 
 @Component({
   selector: 'app-root',
-  imports: [AnimalPicker, Game],
+  imports: [AnimalPicker, Game, Result],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
@@ -19,6 +21,7 @@ export class App implements OnInit {
   protected readonly data = signal<PawMatchData | null>(null);
   protected readonly hasLoadError = signal(false);
   protected readonly selectedAnimalType = signal<AnimalType | null>(null);
+  protected readonly matchedAnimals = signal<Animal[]>([]);
 
   protected readonly statementsForSelectedType = computed(() => {
     const data = this.data();
@@ -47,11 +50,19 @@ export class App implements OnInit {
   }
 
   protected showResult(): void {
+    const data = this.data();
+    const animalType = this.selectedAnimalType();
+    if (!data || !animalType) {
+      return;
+    }
+    const animalsOfType = data.animals.filter(animal => animal.animalTypeId === animalType.id);
+    this.matchedAnimals.set(pickAnimalsFromDifferentShelters(shuffle(animalsOfType), MAX_MATCHES));
     this.step.set('result');
   }
 
   protected startOver(): void {
     this.selectedAnimalType.set(null);
+    this.matchedAnimals.set([]);
     this.step.set('choose');
   }
 }
