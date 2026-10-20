@@ -1,1 +1,10 @@
 <h1>🐾 PawMatch</h1>
+
+@if (hasLoadError()) {
+  <p>Oops! We couldn't load the data. Please check your connection and try again.</p>
+  <button type="button" (click)="loadData()">Try again</button>
+} @else if (data(); as loadedData) {
+  <p>Loaded {{ loadedData.animalTypes.length }} animal types and {{ loadedData.statements.length }} statements.</p>
+} @else {
+  <p>Fetching our furry friends... 🐶</p>
+}
