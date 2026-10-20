@@ -1,0 +1,45 @@
+<section class="game">
+  <header class="game__header">
+    <h2 class="section-title">{{ animalType().emoji }} Fact or Myth?</h2>
+    <p class="game__score">Score: <strong>{{ score() }}</strong> / {{ winningScore }}</p>
+    <div class="progress">
+      <div class="progress__bar" [style.width.%]="progressPercent()"></div>
+    </div>
+  </header>
+
+  @if (currentStatement(); as statement) {
+    <article class="statement">
+      <p class="statement__counter">Statement {{ currentIndex() + 1 }} of {{ queue().length }}</p>
+      <p class="statement__text">{{ statement.text }}</p>
+
+      @if (!isAnswered()) {
+        <div class="actions">
+          <button type="button" class="button" (click)="answer(true)">✅ Fact</button>
+          <button type="button" class="button button--secondary" (click)="answer(false)">❌ Myth</button>
+        </div>
+      } @else {
+        <div class="feedback" [class.feedback--correct]="isAnswerCorrect()" [class.feedback--wrong]="!isAnswerCorrect()">
+          <p class="feedback__title">
+            @if (isAnswerCorrect()) {
+              Correct! +{{ pointsPerCorrectAnswer }} points 🎉
+            } @else {
+              Not quite! 🙈
+            }
+          </p>
+          <p>It's a <strong>{{ statement.isTrue ? 'fact' : 'myth' }}</strong>. {{ statement.explanation }}</p>
+        </div>
+        <button type="button" class="button" (click)="next()">
+          {{ hasWon() ? 'Meet my matches 🐾' : 'Next' }}
+        </button>
+      }
+    </article>
+  } @else {
+    <div class="message">
+      <p>You've gone through all the statements and scored {{ score() }} points. So close! Want to try again?</p>
+      <div class="actions">
+        <button type="button" class="button" (click)="restart()">Play again</button>
+        <button type="button" class="button button--secondary" (click)="startOver.emit()">Choose another animal</button>
+      </div>
+    </div>
+  }
+</section>

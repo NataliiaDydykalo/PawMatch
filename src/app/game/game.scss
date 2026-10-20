@@ -1,0 +1,72 @@
+.game {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.game__header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.game__score {
+  margin: 0 0 8px;
+}
+
+.progress {
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+
+.progress__bar {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.3s;
+}
+
+.statement {
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.statement__counter {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.statement__text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.feedback {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: left;
+}
+
+.feedback--correct {
+  background: var(--color-success-bg);
+}
+
+.feedback--wrong {
+  background: var(--color-error-bg);
+}
+
+.feedback__title {
+  margin-top: 0;
+  font-weight: 700;
+}
