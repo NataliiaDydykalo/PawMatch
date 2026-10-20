@@ -8,7 +8,7 @@ for a home in different shelters.
 
 ![PawMatch screenshot](docs/screenshot.png)
 
-**Live demo:** https://your-project.vercel.app
+**Live demo:** https://nataliiadydykalo.github.io/PawMatch/
 
 ## Features
 
@@ -68,7 +68,7 @@ public/mocks/                JSON mock data
 - Loading data with `HttpClient` and handling loading/error states
 - Writing unit tests for pure functions with Vitest
 - Responsive layouts with CSS Grid and SCSS
-- Deploying an Angular app to Vercel
+- Deploying an Angular app to GitHub Pages
 
 ## Possible improvements
 
